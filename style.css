@@ -1,0 +1,67 @@
+body {
+  max-width: 1004px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+header {
+  display: flex;
+  max-width: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+header img {
+  display: flex;
+  justify-content: center;
+}
+header h2 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2rem;
+  position: relative;
+  right: 12.5rem;
+}
+header p {
+  font-size: 0.5rem;
+  color: grey;
+  position: relative;
+  right: 12.5rem;
+}
+nav {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  left: 6rem;
+}
+
+main {
+  width: 1004px;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+article {
+  max-width: 1004px;
+  margin: 0 auto;
+}
+article p {
+  width: fit-content;
+  margin: 20px 0;
+}
+ul {
+  background-image: url(./lab-10a-assets-main/list-bg.png);
+}
+.van {
+  display: flex;
+  max-width: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
